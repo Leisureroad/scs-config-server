@@ -1,1 +1,1 @@
-cf create-service p-config-server standard config-server -c '{"git": { "uri": "https://github.com/Leisureroad/scs-config-server", "label": "master" }}'
+cf create-service p-config-server standard config-demo -c '{"git": { "uri": "https://github.com/Leisureroad/scs-config-server", "label": "master", "searchPaths":"registrydemo" }}'
